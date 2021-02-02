@@ -1,0 +1,32 @@
+.app-vraper{
+  margin: 0 auto;
+  width: 1200px;
+  display: grid;
+  grid-template-areas:
+"header header header"
+"nav content content";
+ grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.app-vrapper-content{
+  grid-area: content;
+  background-color: #FFFFFF;
+  border-radius: 4%;
+  align-items: centr;
+  padding:.5rem 1rem;
+  border:2px solid #ccc;
+  border-radius:5px;
+  margin-bottom:.5rem;
+}
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}

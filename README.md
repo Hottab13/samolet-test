@@ -3,7 +3,7 @@
 Clone the project repository by running the command below
 
 ```bash
-git clone https://github.com/Hottab13/nest.git
+git clone https://github.com/Hottab13/samolet-test.git
 ```
 
 After cloning, run:
